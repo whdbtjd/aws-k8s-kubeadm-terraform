@@ -1,0 +1,23 @@
+# Terraform 관련 파일
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# AWS 인증 및 키 파일 (절대 커밋 금지!)
+*.pem
+*.key
+*.pub
+.ssh/
+
+# OS 및 로그 파일
+.DS_Store
+*.log
+Thumbs.db
+
+# 쿠버네티스 관련 임시 파일 (만약 로컬로 가져왔을 경우)
+.kube/
+kubeconfig
